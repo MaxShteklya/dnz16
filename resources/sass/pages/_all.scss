@@ -1,0 +1,10 @@
+*, :after, :before, html {
+    box-sizing: border-box
+}
+
+.top-bar {
+    font-size: 14px;
+    background: #f76a99;
+    background: linear-gradient(90deg, #f76a99 0%, #4a57a6 50%, #11b9f3 100%);
+    color: #fff;
+}
