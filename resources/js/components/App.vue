@@ -6,6 +6,8 @@
 
 <script>
 export default {
+    el: '#app',
+
     name: "App",
 
     computed: {

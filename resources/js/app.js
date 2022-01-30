@@ -11,14 +11,8 @@ Vue.component("admin-layout", AdminLayout)
 Vue.component("no-layout", NoLayout)
 
 require('./bootstrap')
-require('./helpers')
 
-const app = new Vue({
-    el: '#app',
-
-    components: {
-        App
-    },
-
-    router
+new Vue({
+    router,
+    ...App
 });
