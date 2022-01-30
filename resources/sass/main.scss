@@ -1,13 +1,14 @@
+// Includes
+@import '~bootstrap/scss/bootstrap';
+@import "~font-awesome/scss/font-awesome";
+
 // General
 @import 'general/variables';
 @import 'general/fonts';
 @import 'general/transitions';
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+// Components
+@import 'components/header';
 
-// Font Awesome
-@import "~font-awesome/scss/font-awesome";
-
-//Styles
+// Styles
 @import 'pages/all';

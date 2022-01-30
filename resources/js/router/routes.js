@@ -4,16 +4,24 @@ function view (path) {
 
 export default [
     { path: '', name: 'home', component: view('home') },
-    { path: '/pro-nas', name: 'about', component: view('about') },
+    { path: '/про-нас', name: 'about', component: view('about') },
     {
         path: '/новини',
         component: view('admin/login'),
         children: [
-            { path: '', redirect: { name: 'news.institution' }},
+            { path: '', name: 'news.all', component: view('news/institution') },
             { path: 'новини-закладу', name: 'news.institution', component: view('news/institution') },
-            { path: 'новини-керівника', name: 'admin.password', component: view('admin/password.vue') }
+            { path: 'керівник', name: 'news.head', component: view('news/institution') },
+            { path: 'методист', name: 'news.methodist', component: view('news/institution') },
+            { path: 'медсестра', name: 'news.nurse', component: view('news/institution') },
+            { path: 'психолог', name: 'news.psychologist', component: view('news/institution') },
+            { path: 'музичний-керівник', name: 'news.musicDirector', component: view('news/institution') },
+            { path: 'керівник-гуртка-англійської-мови', name: 'news.englishClassHead', component: view('news/institution') },
         ]
     },
+    { path: '/харчування', name: 'food', component: view('food') },
+    { path: '/установчі-документи', name: 'documents', component: view('documents') },
+    { path: '/контакти', name: 'contacts', component: view('contacts') },
 
     { path: '/admin/login', name: 'login', component: view('admin/login') },
     { path: '/admin/register', name: 'register', component: view('admin/register') },
