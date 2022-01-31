@@ -1,0 +1,30 @@
+.agile {
+    &.intro .slide{
+        overflow: hidden;
+        img {
+            height: 700px;
+        }
+    }
+    &__actions {
+        top: 50%;
+    }
+    &__nav-button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        opacity: .7;
+        font-size: 80px;
+        color: #fff;
+        border: 0;
+        background-color: transparent;
+        &--next {
+            right: 18px;
+        }
+        &--prev {
+            left: 18px;
+        }
+    }
+    &:hover &__nav-button {
+        opacity: 1;
+    }
+}

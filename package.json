@@ -27,6 +27,7 @@
     },
     "dependencies": {
         "font-awesome": "^4.7.0",
+        "vue-agile": "^2.0.0",
         "vue-router": "^3.5.3"
     }
 }

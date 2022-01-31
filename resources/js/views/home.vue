@@ -1,12 +1,18 @@
 <template>
     <div>
-        Home
+        <intro />
     </div>
 </template>
 
 <script>
+import Intro from "../components/Intro";
+
 export default {
-    name: "Home"
+    name: "Home",
+
+    components: {
+        Intro
+    }
 }
 </script>
 

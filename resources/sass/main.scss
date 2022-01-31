@@ -6,9 +6,13 @@
 @import 'general/variables';
 @import 'general/fonts';
 @import 'general/transitions';
+@import 'general/animations';
 
 // Components
 @import 'components/header';
+
+// Libs
+@import 'libs/agile';
 
 // Styles
 @import 'pages/all';
