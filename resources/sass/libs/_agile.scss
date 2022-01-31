@@ -1,8 +1,15 @@
 .agile {
     &.intro .slide{
-        overflow: hidden;
         img {
             height: 700px;
+        }
+    }
+    .slide {
+        overflow: hidden;
+        img {
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
         }
     }
     &__actions {
