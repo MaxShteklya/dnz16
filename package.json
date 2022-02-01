@@ -26,6 +26,7 @@
         "vue-template-compiler": "^2.6.12"
     },
     "dependencies": {
+        "aos": "^2.3.4",
         "font-awesome": "^4.7.0",
         "vue-agile": "^2.0.0",
         "vue-router": "^3.5.3"
