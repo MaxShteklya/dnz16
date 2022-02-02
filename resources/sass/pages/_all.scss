@@ -6,7 +6,7 @@ html, body {
     font-size: 18px;
     font-family: 'Nunito', sans-serif;
     //font-family: 'Balsamiq Sans', sans-serif;
-    min-height: 200vh;
+    color: $body-font-color;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -25,3 +25,9 @@ section {
     padding: 100px 0;
 }
 
+.divider {
+    height: 4px;
+    width: 70px;
+    background-color: $pink-color;
+    margin: 28px 0;
+}
