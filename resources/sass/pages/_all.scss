@@ -2,12 +2,26 @@
     box-sizing: border-box
 }
 
+html, body {
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    //font-family: 'Balsamiq Sans', sans-serif;
+    min-height: 200vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
 a, button, input[type=submit] {
     transition: .3s ease-in-out;
 }
 
-body {
-    //font-family: 'Balsamiq Sans', sans-serif;
-    font-family: 'Nunito', sans-serif;
-    min-height: 200vh;
+img {
+    width: 100%;
 }
+
+section {
+    padding: 100px 0;
+}
+

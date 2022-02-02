@@ -5,12 +5,16 @@
            :autoplay-speed="5000"
            :dots="false"
            @after-change="scale($event)">
-        <div class="slide slide_1">
+        <div class="slide slide_1 justify-content-end">
             <img src="http://gonthemes.info/iziclass/wp-content/uploads/2019/07/slider2.jpg" alt="">
 
             <div class="container">
-                <h3 data-aos="fade-down" data-aos-delay="500">Наша мета</h3>
-                <h2 data-aos="slide-right" data-aos-delay="1000">Щасливі діти</h2>
+                <div class="row">
+                    <div class="col-7 text-center">
+                        <h3 data-aos="fade-down" data-aos-delay="500">Наша мета</h3>
+                        <h2 data-aos="slide-right" data-aos-delay="1000">Щасливі діти</h2>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="slide slide_1">
