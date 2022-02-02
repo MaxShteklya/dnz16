@@ -22,16 +22,16 @@
     }
     .nav-link {
         font-weight: 700;
-        color: #222;
+        color: $gray-900!important;
         font-size: 20px;
         padding: 32px 16px!important;
         text-align: center;
         &.active, &:hover {
-            color: $pink-color;
+            color: $pink-color!important;;
         }
     }
     .dropdown-item.active, .dropdown-item:active {
-        color: $pink-color;
+        color: $pink-color!important;
         background-color: #fff;
     }
 }
