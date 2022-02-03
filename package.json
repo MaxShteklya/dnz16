@@ -29,6 +29,7 @@
         "@fortawesome/fontawesome-free": "^5.15.4",
         "aos": "^2.3.4",
         "vue-agile": "^2.0.0",
+        "vue-flux": "^6.4.0",
         "vue-router": "^3.5.3"
     }
 }

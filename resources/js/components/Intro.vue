@@ -11,8 +11,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-7 text-center">
-                        <h3 data-aos="fade-down" data-aos-delay="500">Наша мета</h3>
-                        <h2 data-aos="slide-right" data-aos-delay="1000">Щасливі діти</h2>
+                        <h3>Наша мета</h3>
+                        <h2>Щасливі діти</h2>
                     </div>
                 </div>
             </div>

@@ -7,6 +7,8 @@ html, body {
     font-family: 'Nunito', sans-serif;
     //font-family: 'Balsamiq Sans', sans-serif;
     color: $body-font-color;
+    overflow-x: hidden;
+    height: 500vh;
 }
 
 h1, h2, h3, h4, h5, h6 {

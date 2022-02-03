@@ -4,7 +4,7 @@
         <section class="our-mission">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-6 align-self-center order-1 order-md-0">
+                    <div class="col-12 col-md-6 align-self-center order-1 order-md-0" data-aos="slide-right">
                         <h2>
                             Розмалюємо життя яскравими барвами!
                         </h2>
@@ -17,11 +17,11 @@
                             <strong>А для цього ми:</strong>
                         </p>
                     </div>
-                    <div class="col-12 col-md-6 order-0 order-md-1 mb-5 mb-md-0">
+                    <div class="col-12 col-md-6 order-0 order-md-1 mb-5 mb-md-0"  data-aos="slide-left">
                         <img :src="'/images/our-mission.png'" alt="">
                     </div>
                 </div>
-                <div class="row mt-5 mission-items">
+                <div class="row mt-5 mission-items" data-aos="fade-up">
                     <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-lg-0">
                         <div class="mission-item">
                             <i class="fas fa-brain"></i>
@@ -57,17 +57,20 @@
                 </div>
             </div>
         </section>
+        <contact-me-section />
     </div>
 </template>
 
 <script>
 import Intro from "../components/Intro";
+import ContactMeSection from "../components/ContactMeSection";
 
 export default {
     name: "Home",
 
     components: {
-        Intro
+        Intro,
+        ContactMeSection
     }
 }
 </script>

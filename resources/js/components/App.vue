@@ -13,7 +13,6 @@
 <script>
 import Loading from './Loading'
 import AOS from "aos";
-import 'aos/dist/aos.css'
 
 export default {
     el: '#app',

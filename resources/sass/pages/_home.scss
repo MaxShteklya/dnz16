@@ -33,4 +33,13 @@
         }
     }
 }
-
+.contact-me-section {
+    & > div {
+        height: 400px;
+        -webkit-background-size: cover!important;
+        background-size: cover!important;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+}
